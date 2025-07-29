@@ -1,0 +1,44 @@
+.card {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.card h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.card p {
+  margin: 0.25rem 0 0.75rem;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.badge {
+  background-color: #ccd3e4;
+  color: #333;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.actions button {
+  background-color: white;
+  border: 1px solid #007bff;
+  color: #007bff;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.actions button:hover {
+  background-color: #007bff;
+  color: white;
+}
